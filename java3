@@ -1,0 +1,13 @@
+public class WhileLoopExample {
+
+    public static void main(String[] args) {
+        
+        int number = 1;  // Initial number
+
+        // While loop that runs as long as number is less than or equal to 10
+        while (number <= 10) {
+            System.out.println("Number: " + number);
+            number++;  // Increment number by 1
+        }
+    }
+}
